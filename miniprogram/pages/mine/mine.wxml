@@ -1,0 +1,31 @@
+<view class="title">
+<image class='head_image' src="{{head_img}}" ></image>
+<button hidden="{{login_id}}" class="btn" bindtap="login" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">点击此处登录</button>
+<view class="welcome">
+<view class='welcome_txt' hidden="{{!login_id}}">欢迎登录，亲爱的{{user}}</view>
+</view>
+</view>
+  <view class='middle-container'>
+		<view class="view_2">
+			<view class="view_tupianwenzi">
+				<image class="image_tupian" bindtap="like" src="/images/like.png"></image>
+				<text class="text_1">收藏</text>
+			</view>
+			<view class="view_tupianwenzi" bindtap="webViewAll" id="2">
+				<image class="image_tupian" bindtap="message" src="/images/message.png"></image>
+				<text class="text_1">信息</text>
+			</view>
+
+			<view class="view_tupianwenzi" bindtap="help" id="3">
+				<image class="image_tupian" src="/images/help.png"></image>
+				<text class="text_1">帮助</text>
+			</view>
+			<view class="view_tupianwenzi" bindtap="webViewAll" id="4">
+				<image class="image_tupian" src="/images/report.png"></image>
+				<text class="text_1">敬请期待</text>
+			</view>
+		</view>
+
+	</view>
+
+<van-button round type="primary" size="large" color="#F9C53E">退出登录</van-button>

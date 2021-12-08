@@ -1,0 +1,158 @@
+.bg{
+  background-color: #f3f3f3;
+}
+/* ———————————————— 头部模块布局 ———————————————— */ 
+.heading{
+    width: 750rpx;
+    height: 125rpx;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefefe;
+    margin-top: 80rpx;
+  }
+
+.logo_img{
+    padding: auto;
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.logo_img1{
+  width: 200rpx;
+  height: 200rpx;
+
+}
+
+.main{
+  background-color: #fefefe;
+  height: 300rpx;
+  width: 100%;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+}
+.main_ima{
+  margin-left: 27rpx;
+  width: 700rpx;
+  height: 255rpx;
+  margin-top: 10px;
+  margin-bottom: 10rpx;
+  border-radius: 40rpx;
+}
+
+/* 三餐推荐链接图轮播 */
+.three_menu{
+  background-color: #fefefe;
+  height: 350rpx;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10rpx;
+}
+
+.three_menu swiper{
+  height: 100%;
+  width: 100%;
+}
+swiper-item{
+  text-align: center;
+}
+swiper-item image{
+  width: 100%;
+}
+
+.img_box{
+  width: 95%;
+  height: 100%;
+  margin-top: 10rpx;
+}
+
+.menu_img{
+  border-radius: 40rpx;
+}
+
+/* 资讯推荐 */
+.news{
+  background-color: #fefefe;
+  height: 1400rpx;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 50rpx;
+  margin-top: 20rpx;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content .box{
+  width: 345rpx;
+  height: 240rpx;
+  margin-top: 13rpx;
+  margin-bottom: 13rpx;
+  position: relative;
+}
+.content .pic{
+  width: 100%;
+  height: 100%;
+  border-radius: 50rpx;
+}
+.content .pic1{
+  margin-top: 13rpx;
+  width:750rpx;
+  border-radius: 50rpx;
+}
+
+
+/* 底部样式 */
+.van-tabs_wrap,
+.van-tabs_wrap scroll-view,
+.van-tabs_nav,
+.van-tab{
+  height: 30px!important;
+  color: pink;
+}
+
+
+/* ———————————————— 海报轮播样式及布局 ———————————————— */ 
+.banner{
+    width: 100%;
+    height: 295rpx;
+  }
+  /* swiper有默认高度设置，所以要进行重新设置 */ 
+  .banner swiper{
+    height: 100%;
+    width: 100%;
+  }
+  .banner image{
+    width: 100%;
+    height: 295rpx;
+  }
+  .bannerItem{ 
+    padding: 0 5px; 
+    box-sizing: border-box;
+  }
+  
+  /* ———————————————— 分类导航滑动模块 ———————————————— */ 
+  .major{
+    white-space: nowrap;
+    padding: 15rpx 0;
+  }
+  .major .box{
+    text-align: center;
+    width: 170rpx;
+    display: inline-block;
+  }
+  .major .pic{
+    width: 100rpx;
+    height: 100rpx;
+  }
+  .major .txt{
+    font-size: 25rpx;
+  }
+  
+  /* ———————————————— 食物打卡导航模块 ———————————————— */ 
+  .works{
+    background: #f0f3f8;
+    padding: 90rpx 0 70rpx;
+  }

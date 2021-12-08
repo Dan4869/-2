@@ -1,0 +1,13 @@
+.box{
+  display: flex;
+}
+
+.pic{
+  flex:2;
+  border-radius:15%;
+  margin-bottom: 10rpx;
+}
+
+.text{
+  flex:2
+}

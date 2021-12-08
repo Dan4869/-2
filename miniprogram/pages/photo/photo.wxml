@@ -1,0 +1,5 @@
+<van-button round color="#ffc700" size="large">拍照</van-button>
+<view>或</view>
+<van-button round color="#ffc700" size="large">选择一张照片</van-button>
+<view>或</view>
+<van-button round color="#ffc700" size="large">识别菜品</van-button>

@@ -1,0 +1,86 @@
+<view class="bg">
+<!-- heading -->
+<view class="heading">
+    <view class="container hdCon">
+        <!-- 食全食美图标显示-->
+        <navigator class="logo">
+            <image class="logo_img" src="/images/logo3.png" style="width: 230rpx; height: 118rpx; display: inline-block; box-sizing: border-box"></image>
+        </navigator>
+    </view>
+
+    <view class="dynamic_icon">
+        <!-- 动态图标显示 -->
+        <image class='logo_img1' src="/images/dynamic.gif" style="width: 177rpx; height: 162rpx; display: inline-block; box-sizing: border-box"></image>
+    </view>
+</view>
+
+<van-search
+  placeholder="请输入搜索菜品"
+  value="{{value}}"
+  show-action
+  bind:search="onSearch1"
+  bind:cancel="onCancel"
+/>
+
+<!-- 主图部分 -->
+<view class="main">
+    <image class="main_ima"src="/images/0.png"></image>
+</view>
+
+<!-- 三餐推荐链接图轮播 -->
+<view class="three_menu">
+  <swiper bindchange='move_swiper' display-multiple-items="1" current="{{current}}" circular="{{true}}" previous-margin="100rpx" next-margin="100rpx">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <view class="img_box">
+          <image class='menu_img' mode="widthFix" src="{{item}}" bindtap="go_dish"></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- 资讯推荐 -->
+<van-search
+  placeholder="请输入搜索资讯"
+  value="{{value}}"
+  show-action
+  bind:search="onSearch2"
+  bind:cancel="onCancel"
+/>
+<view class="news">
+  <van-tabs border='true' active="{{ active }}">
+  <van-tab title="节食减肥">
+
+    <view class="content">
+       <navigator class="box" url="pages/login/login" open-type="navigate">
+        <image class="pic" src="/images/f1.jfif"></image>
+      </navigator>
+
+      <navigator class="box" url="pages/login/login" open-type="navigate">
+        <image class="pic" src="/images/f1.jfif"></image>
+      </navigator>
+
+      <navigator class="box" url="pages/login/login" open-type="navigate">
+        <image class="pic" src="/images/f1.jfif"></image>
+      </navigator>
+
+      <navigator class="box" url="pages/login/login" open-type="navigate">
+        <image class="pic" src="/images/f1.jfif"></image>
+      </navigator>
+
+      <navigator url="pages/login/login" open-type="navigate">
+        <image class="pic1" src="/images/f1.jfif"></image>
+      </navigator>
+
+    </view>
+  </van-tab>
+  <van-tab title="营养均衡">营养均衡</van-tab>
+  <van-tab title="推荐">推荐</van-tab>
+  <van-tab title="减压少糖">减压少糖</van-tab>
+  <van-tab title="当季饮食">当季饮食</van-tab>
+</van-tabs>
+</view>
+
+</view>
+

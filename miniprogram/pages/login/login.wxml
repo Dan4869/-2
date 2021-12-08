@@ -1,0 +1,42 @@
+<!--pages/login/login.wxml-->
+<image class='return' src="/images/返回 (4).png" bindtap="return"></image>
+<image class='pic' src="/images/图标.png"></image>
+<view class="message1">基础信息</view>
+<view class='message2'>信息仅用于饮食匹配，请放心填写</view>
+<van-cell title="展示弹出层" is-link bind:click="showPopup" />
+
+<view class="btn_msn">
+  <button bindtap='showPopup1' class='btn2'>性别选择</button>
+<button bindtap='showPopup2' class='btn2'>年龄选择</button>
+</view>
+<van-popup show="{{ show1 }}" closeable round bind:close="onClose1" position="bottom"
+  custom-style="height: 20%;">
+  <van-picker title='性别' columns="{{ columns }}" bind:change="onChange" />
+</van-popup>
+<van-popup show="{{ show2 }}" closeable round bind:close="onClose2" position="bottom"
+  custom-style="height: 20%;">
+  <van-datetime-picker
+  type="year-month"
+  value="{{ currentDate }}"
+  min-date="{{ minDate }}"
+  bind:input="onInput"
+/>
+</van-popup>
+<view class="message1">基础疾病</view>
+<view class='message3'>多选（可不选）</view>
+<view class="btn_view">
+<button hidden='{{!btn_hover1}}' bindtap='d1' class='btn'>糖尿病</button>
+<button hidden='{{btn_hover1}}' bindtap='d1_h' class='btn_hover'>糖尿病</button>
+<button hidden='{{!btn_hover2}}' bindtap='d2' class='btn'>高血压</button>
+<button hidden='{{btn_hover2}}' bindtap='d2_h' class='btn_hover'>高血压</button>
+<button hidden='{{!btn_hover3}}' bindtap='d3' class='btn'>心脑血管病</button>
+<button hidden='{{btn_hover3}}' bindtap='d3_h' class='btn_hover'>心脑血管病</button>
+</view>
+<view class="btn_view">
+<button hidden='{{!btn_hover4}}' bindtap='d4' class='btn' >肥胖超重</button>
+<button hidden='{{btn_hover4}}' bindtap='d4_h' class='btn_hover' >肥胖超重</button>
+<button hidden='{{!btn_hover5}}' bindtap='d5' class='btn' >高血脂</button>
+<button hidden='{{btn_hover5}}' bindtap='d5_h' class='btn_hover' >高血脂</button>
+</view>
+<view class="message1">厌恶食材</view>
+<button class='btn1' bindtap='dislike'>点击选择</button>

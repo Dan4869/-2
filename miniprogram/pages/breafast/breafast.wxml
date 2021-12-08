@@ -1,0 +1,21 @@
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;">
+早餐</van-divider>
+
+
+<view wx:for="{{foods}}">
+<view bindtap="go_foods" data-id="{{item.id}}" class='card'>
+  <block class="main_img">
+  <image class='img' src="{{item.img}}"></image>
+  </block>
+  <view>
+  <view class="message">简介：{{item.breif}}</view>
+  <view class="message">做法：{{item.method}}</view>
+  </view>
+</view>
+</view>
+
+
+
+

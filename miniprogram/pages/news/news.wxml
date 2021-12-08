@@ -1,0 +1,22 @@
+<view class="box">
+<image class='pic' src="{{img}}"></image>
+<view class="box1">
+<view class="name">{{name}}</view>
+</view>
+</view>
+<view class='box3'>
+  <van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;"
+>
+简介：
+</van-divider>
+<view class="message">{{breif}}</view>
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;"
+>
+做法：
+</van-divider>
+<view class="message">{{method}}</view>
+</view>

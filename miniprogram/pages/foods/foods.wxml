@@ -1,0 +1,48 @@
+<view class="box">
+<image class='pic' src="{{img}}"></image>
+<view class="box1">
+<view class="name">{{name}}</view>
+<view class="box2">
+<text>评分：</text>
+<van-rate value="{{ value }}" bind:change="onChange" />
+</view>
+<view class='btn_box1' bindtap='click'  size="large" hidden="{{!click}}">
+<van-button round icon='http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5jpBBYUNY6Dahf8kago5Z63Eat2toJdR10GTGTyINliKvX5Vs0NBh2BGStEkGc28LPxb.dGDLdvdX8hxxgsP3wA!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5' color="#99CC33">收藏</van-button>
+</view>
+<view class='btn_box1' bindtap='clicked'  size="large" hidden="{{click}}">
+<van-button round icon='http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5tpNwT4O1n9EV9MGOVwngpIkyTo0TNhpp6fzlq*f3FuJ3hLDg2XSFpxSxusi8..qqXAKikoLQYx1*n3RRUbpJTI!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5' color="#99CC33">收藏</van-button>
+</view>
+</view>
+</view>
+<view class="box_ratio">
+<view class="food_ratio">菜品评分</view>
+<view class="score">{{score}}</view>
+<view class="mass">12345人评价</view>
+<view class="ratio">
+<van-rate
+  value="{{ ratio }}"
+  allow-half
+  void-icon="star"
+  void-color="#eee"
+/>
+</view>
+<view class="container">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ec}}"></ec-canvas>
+</view>
+</view>
+<view class='box3'>
+  <van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;"
+>
+简介：
+</van-divider>
+<view class="message">{{breif}}</view>
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;"
+>
+做法：
+</van-divider>
+<view class="message">{{method}}</view>
+</view>

@@ -1,0 +1,12 @@
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 28px;"
+>
+搜索结果
+</van-divider>
+<view wx:for="{{foods}}">
+<view bindtap="go_news" data-id="{{item.id}}" class='box'>
+<image class='pic' src="{{item.img}}"></image>
+<view class='text'>{{item.name}} {{item.breif}}</view>
+</view>
+</view>

@@ -1,0 +1,76 @@
+page {
+  background-color: #f5c92c;
+}
+
+.pic{
+    width:450rpx;
+    height: 450rpx;
+    margin-top: 70rpx;
+    margin-left: 195rpx;
+}
+
+.return{
+  margin-top: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.message1{
+  margin-left: 310rpx;
+  font-size: larger;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.message2{
+  margin-left: 180rpx;
+  margin-bottom: 30rpx;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.message3{
+  margin-left: 280rpx;
+  margin-bottom: 30rpx;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.btn_view{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
+
+.btn_msn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  background-color: #B3D66E;
+  color:#ffffff;
+  border-radius: 15%;
+}
+
+.btn2{
+  background-color: #d66eb3;
+  color:#ffffff;
+  border-radius: 15%;
+}
+
+.btn_hover{
+  background-color: #fa5a5a;
+  color:#ffffff;
+  border-radius: 15%;
+}
+
+.btn1{
+  margin-top: 20rpx;
+  background-color: #ff8474;
+  color:#ffffff;
+  border-radius: 15%;
+}

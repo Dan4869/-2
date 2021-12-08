@@ -1,0 +1,29 @@
+.main_img{
+  display: flex;
+  justify-content:center;
+}
+
+.img{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  border-radius: 15px;
+  width: 400rpx;
+  height: 288rpx;
+}
+
+.message{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    height: 360rpx;
+    background: rgb(255, 255, 255);
+    box-shadow: 8px 8px 8px #8a8b8b;
+    display: flex;
+}
