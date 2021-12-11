@@ -1,5 +1,4 @@
 App({
-   
     onLaunch:function(){
       wx.cloud.init({
         env:'calendar-2gwvhii6724490c3',
@@ -9,7 +8,7 @@ App({
     globalData: {
         isIphoneX: false,
         userInfo: null,
-        food_list:[]
+        openid:''
       },
       onShow:function(){
         let  that = this;
@@ -23,4 +22,9 @@ App({
           }
         })    
       },
+})
+
+wx.cloud.init({
+  env:'calendar-2gwvhii6724490c3',
+  traceUser: true,
 })

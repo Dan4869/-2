@@ -1,5 +1,18 @@
-<van-button round color="#ffc700" size="large">拍照</van-button>
-<view>或</view>
-<van-button round color="#ffc700" size="large">选择一张照片</van-button>
-<view>或</view>
-<van-button round color="#ffc700" size="large">识别菜品</van-button>
+<view class="top_box">
+<image class="rtn_img" src="/images/返回.png" style="width: 50rpx; height: 50rpx; display: inline-block; box-sizing: border-box" bindtap="go_index">
+</image>
+<image class="logo_img" src="/images/logo3.png" style="width: 230rpx; height: 118rpx; display: inline-block; box-sizing: border-box"></image>
+</view>
+<view>
+<camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px; margin-top:30rpx ;"></camera>
+<button style="width:300rpx; height:80rpx;" class="btn" bindtap="takePhoto">
+  <image class="btn_img" src='/images/拍照.png'></image>
+  <view>拍照</view>
+</button>
+<button style="width:300rpx; height:80rpx;" class="btn1" bindtap="select_img">
+  <view>选择相册图片</view>
+</button>
+<button style="width:300rpx; height:80rpx;" class="btn1" bindtap="recognize_img">
+  <view>识别图片</view>
+</button>
+</view>

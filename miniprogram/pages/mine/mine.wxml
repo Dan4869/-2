@@ -28,4 +28,3 @@
 
 	</view>
 
-<van-button round type="primary" size="large" color="#F9C53E">退出登录</van-button>

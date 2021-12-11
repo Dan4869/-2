@@ -1,9 +1,15 @@
 <van-index-bar>
   <view>
+  暂时用A做示例，引入数据在推广整个清单
     <van-index-anchor index="A" />
-    <van-cell title="文本" />
-    <van-cell title="文本" />
-    <van-cell title="文本" />
+    <view wx:for="{{dislikeA}}">
+    <view hidden="{{item.status}}">
+    <van-cell data-id="{{item.id}}"  bindtap="status1" title="{{item.name}}" />
+    </view>
+    <view hidden="{{!item.status}}">
+    <van-cell data-id="{{item.id}}" icon="success" bindtap="status0" title="{{item.name}}" />
+    </view>
+    </view>
   </view>
 
   <view>

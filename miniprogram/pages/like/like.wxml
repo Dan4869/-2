@@ -1,4 +1,4 @@
 <van-tabs tab-class="a" class='top' type="card" active="{{ active }}" bind:change="onChange" animated>
-  <van-tab title="菜品">内容 1</van-tab>
-  <van-tab title="资讯">内容 2</van-tab>
+  <van-tab title="菜品">云数据库调取数据，点击通过食物id请求食物列表</van-tab>
+  <van-tab title="资讯">云数据库调取数据</van-tab>
 </van-tabs>

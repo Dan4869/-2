@@ -3,9 +3,9 @@ const app = getApp();
 Page({
   data: {
     imgUrls:[
-      '/images/f1.jfif',
-      '/images/f2.jfif',
-      '/images/f3.jfif'
+      '/images/早餐.png',
+      '/images/午餐.png',
+      '/images/晚餐.png'
     ],
     active: 0,
     current:0,

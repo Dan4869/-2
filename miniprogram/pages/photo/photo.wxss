@@ -1,1 +1,38 @@
-/* pages/photo/photo.wxss */
+page{
+  background-image:url(https://pic3.zhimg.com/80/v2-a811c459201174515e9e37cea22f0f01_1440w.jpg?source=1940ef5c);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.top_box{
+  display: flex;
+}
+.rtn_img{
+  margin-top: 90rpx;
+  margin-left: 25rpx;
+}
+.logo_img{
+  margin-top: 50rpx;
+  margin-left: 170rpx;
+}
+.btn{
+  display: flex;
+  margin-top:550rpx;
+  background-color: #ffc1a0;
+  color:#ffffff;
+  justify-content: center;
+  border-radius: 20rpx;
+}
+.btn1{
+  margin-top:30rpx;
+  background-color: #ffc1a0;
+  color:#ffffff;
+  justify-content: center;
+  border-radius: 20rpx;
+}
+.btn_img{
+  margin-top: 15rpx;
+  margin-left: -20rpx;
+  margin-right: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,5 +1,6 @@
 import * as echarts from '../../ec-canvas/echarts';
 const app = getApp();
+const db = wx.cloud.database();
 function initChart(canvas, width, height){
   const chart = echarts.init(canvas,null,{
     width:width,
@@ -91,17 +92,28 @@ Page({
     });
   },
   click(){
-    console.log(app.globalData.food_list)
-    app.globalData.food_list.push(this.data.food_id)
-    // 以上要改为对云数据库操作
+    console.log("点击了")
     this.setData({
       click:false
+    })
+    db.collection('food_like').add({
+      data:{
+        id:this.data.food_id
+      }
     })
   },
 
   clicked(){
+    console.log("未点击")
     this.setData({
       click:true
+    })
+    db.collection('food_like').where({
+      id:this.data.food_id
+    }).remove({
+      success:function(){
+        
+      }
     })
   },
 

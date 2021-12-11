@@ -11,12 +11,19 @@ Page({
     columns: ['男', '女'],
     show1: false,
     show2: false,
+    disease:'',
   },
 
   onLoad: function (options) {
     wx.setNavigationBarColor({
       backgroundColor: '#f5c92c',
       frontColor: '#ffffff',
+    })
+  },
+
+  onChange(event) {
+    this.setData({
+      disease:event.detail
     })
   },
 
@@ -44,6 +51,10 @@ Page({
   },
   onClose2() {
     this.setData({ show2: false });
+  },
+
+  post(){
+    // 这里将所有信息post给数据库
   },
 
   onReady: function () {
@@ -78,56 +89,5 @@ Page({
     this.setData({
       currentDate: event.detail,
     });
-  },
-
-  d1:function(){
-    this.setData({
-      btn_hover1:false
-    })
-  },
-  d1_h:function(){
-    this.setData({
-      btn_hover1:true
-    })
-  },
-  d2:function(){
-    this.setData({
-      btn_hover2:false
-    })
-  },
-  d2_h:function(){
-    this.setData({
-      btn_hover2:true
-    })
-  },
-  d3:function(){
-    this.setData({
-      btn_hover3:false
-    })
-  },
-  d3_h:function(){
-    this.setData({
-      btn_hover3:true
-    })
-  },
-  d4:function(){
-    this.setData({
-      btn_hover4:false
-    })
-  },
-  d4_h:function(){
-    this.setData({
-      btn_hover4:true
-    })
-  },
-  d5:function(){
-    this.setData({
-      btn_hover5:false
-    })
-  },
-  d5_h:function(){
-    this.setData({
-      btn_hover5:true
-    })
-  },
+  }
 })
