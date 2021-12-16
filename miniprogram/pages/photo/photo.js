@@ -51,7 +51,7 @@ Page({
     wx.chooseImage({
       count:9,
       encoding:'base64',
-      sizeType:['original','compressed'],
+      sizeType:['compressed'],
       sourceType:['album','camera'],
       success(res){
         const tempFilePaths = res.tempFilePaths
@@ -90,6 +90,9 @@ Page({
     var token = this.data.token
     var imgB64= this.data.imgB64
     console.log(token)
+    wx.showLoading({
+          title: '正在加载中',
+        })
     wx.request({
       url: 'https://aip.baidubce.com/rest/2.0/image-classify/v2/dish?access_token='+token,
       method:'POST',
@@ -102,6 +105,8 @@ Page({
       success:res=>{
         this.setData({
           result:res
+        })
+        wx.hideLoading({
         })
         wx.showModal({
           title:'识别结果',
