@@ -14,25 +14,18 @@ page{
   margin-top: 50rpx;
   margin-left: 170rpx;
 }
-.btn{
-  display: flex;
-  margin-top:550rpx;
+.btn1{
+  margin-top:1100rpx;
   background-color: #ffc1a0;
   color:#ffffff;
   justify-content: center;
   border-radius: 20rpx;
 }
-.btn1{
+
+.btn2{
   margin-top:30rpx;
   background-color: #ffc1a0;
   color:#ffffff;
   justify-content: center;
   border-radius: 20rpx;
-}
-.btn_img{
-  margin-top: 15rpx;
-  margin-left: -20rpx;
-  margin-right: 30rpx;
-  width: 50rpx;
-  height: 50rpx;
 }

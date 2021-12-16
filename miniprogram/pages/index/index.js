@@ -3,9 +3,9 @@ const app = getApp();
 Page({
   data: {
     imgUrls:[
-      '/images/早餐.png',
-      '/images/午餐.png',
-      '/images/晚餐.png'
+      'http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5gtcRNfaZfAmSBiy1e6z*27NipZiJ3jQTtbmsq*80EKy1.SN5OdpiIkNZ2VUSdl59QY9uWwZfVeBwN5*4dGTk6w!/mnull&bo=wAY4BAAAAAADB9g!&rf=photolist&t=5s',
+      'http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5gtcRNfaZfAmSBiy1e6z*26q8RQKndIGDcXbhCPpxxGP3kqNWHYBb..4MwXc3Cg*luqmcXPdbmroQYI38TBB.DE!/mnull&bo=wAY4BAAAAAADB9g!&rf=photolist&t=5',
+      'http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5gtcRNfaZfAmSBiy1e6z*26NgNV415*EPRXBbnPRCY7kbabSclGuxcYfGFsI0EJVQPnILsDqH1u4E8nnyFdybig!/mnull&bo=VAY4BAAAAAADB0w!&rf=photolist&t=5'
     ],
     active: 0,
     current:0,
@@ -35,7 +35,6 @@ Page({
         })
       }
     },
-
     onSearch1(e){
       this.setData({
         value:e.detail
@@ -45,7 +44,6 @@ Page({
         url: '../foods_research/foods_research?value='+value,
       })
     },
-
     onSearch2(e){
       this.setData({
         value:e.detail
@@ -55,10 +53,8 @@ Page({
         url: '../news_research/news_research?value'+value,
       })
     },
-
     onCancel:function(options){
     },
-
     onLoad: function(options) {
       var TIME = util.formatTime(new Date());
       var Time_cur = 0

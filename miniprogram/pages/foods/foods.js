@@ -98,6 +98,7 @@ Page({
     })
     db.collection('food_like').add({
       data:{
+        userid:app.globalData.openid,
         id:this.data.food_id
       }
     })
@@ -109,6 +110,7 @@ Page({
       click:true
     })
     db.collection('food_like').where({
+      userid:app.globalData.openid,
       id:this.data.food_id
     }).remove({
       success:function(){

@@ -8,20 +8,20 @@
   <view class='middle-container'>
 		<view class="view_2">
 			<view class="view_tupianwenzi">
-				<image class="image_tupian" bindtap="like" src="/images/like.png"></image>
+				<image class="image_tupian" bindtap="like" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5scL5y01Q4HDAHkTi0iA2eozTWfZcKaFK47EBW*0RTpl7ICyuUHsY3xsW71pY65Xu1UDy4yM2IMEg7otCP6ERZ0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
 				<text class="text_1">收藏</text>
 			</view>
 			<view class="view_tupianwenzi" bindtap="webViewAll" id="2">
-				<image class="image_tupian" bindtap="message" src="/images/message.png"></image>
+				<image class="image_tupian" bindtap="message" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5voK1bKdm0RWEE5OM*VftcpE0UhzV4h*YpL*AKSy1JXerhMKazE6i9QYCnaMw3.47Mo8JXf9dG7gW9JvaceRmVU!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
 				<text class="text_1">信息</text>
 			</view>
 
 			<view class="view_tupianwenzi" bindtap="help" id="3">
-				<image class="image_tupian" src="/images/help.png"></image>
+				<image class="image_tupian" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6Zh*Ibe3GRB.E6HJqIrt5CPDEkouDimSyRmv7vAz7GesYuT8pyl9uKH73YWcUMQP74!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
 				<text class="text_1">帮助</text>
 			</view>
 			<view class="view_tupianwenzi" bindtap="webViewAll" id="4">
-				<image class="image_tupian" src="/images/report.png"></image>
+				<image class="image_tupian" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5voK1bKdm0RWEE5OM*VftcrQaP01gzmE*RpORLN2vEVZ*JnsCKOvQQ4K5oRbUwWJZKZSYyVWjJ6qIiB3ogJ2OZ0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
 				<text class="text_1">敬请期待</text>
 			</view>
 		</view>

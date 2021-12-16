@@ -1,9 +1,8 @@
 <!--pages/login/login.wxml-->
-<image class='return' src="/images/返回 (4).png" bindtap="return"></image>
-<image class='pic' src="/images/图标.png"></image>
+<image class='return' src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5ohJkutq09OTz1IqHTj5qmdS84pAxSh*fDC78tgzYfuYhAx*fB3dxXpyrKGY5iKuayLoA8JJzYZ6av8aOTm2LxI!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" bindtap="return"></image>
+<image class='pic' src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5gtcRNfaZfAmSBiy1e6z*27o5AMPis.7.6lry0L9Nd6Jph.3yjOxCqDY0P4d88XdtvmgNOErA70uDnPBn7MoCUU!/mnull&bo=cQGpAQAAAAADB*o!&rf=photolist&t=5"></image>
 <view class="message1">基础信息</view>
 <view class='message2'>信息仅用于饮食匹配，请放心填写</view>
-<van-cell title="展示弹出层" is-link bind:click="showPopup" />
 
 <view class="btn_msn">
   <button bindtap='showPopup1' class='btn2'>性别选择</button>

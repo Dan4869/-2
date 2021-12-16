@@ -4,13 +4,13 @@
     <view class="container hdCon">
         <!-- 食全食美图标显示-->
         <navigator class="logo">
-            <image class="logo_img" src="/images/logo3.png" style="width: 230rpx; height: 118rpx; display: inline-block; box-sizing: border-box"></image>
+            <image class="logo_img" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/45NBuzDIW489QBoVep5mcQaKgAOgiSKZ4mx7xNgtw4LKdP7cQVdFInO*Iqnp1Zf0BR4RO8xPukSdmLPj3zERAIs8HqbWx4i.8XtU32UkhUg!/b&bo=rwBGAAAAAAADF9s!&rf=viewer_4" style="width: 230rpx; height: 118rpx; display: inline-block; box-sizing: border-box"></image>
         </navigator>
     </view>
 
     <view class="dynamic_icon">
         <!-- 动态图标显示 -->
-        <image class='logo_img1' src="/images/dynamic.gif" style="width: 177rpx; height: 162rpx; display: inline-block; box-sizing: border-box"></image>
+        <image class='logo_img1' src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/45NBuzDIW489QBoVep5mcWxXouFkqq4uzlsIuE6CN82kr9gsQLRLVGVvciBCtV6egSy.sQSiPvH9ZZ.CE5c0cM4yT4ye.f*hcF2YFy2OdmA!/b&bo=IANYAgAAAAACJ3o!&rf=viewer_4" style="width: 177rpx; height: 162rpx; display: inline-block; box-sizing: border-box"></image>
     </view>
 </view>
 
@@ -24,7 +24,7 @@
 
 <!-- 主图部分 -->
 <view class="main">
-    <image class="main_ima"src="/images/0.png"></image>
+    <image class="main_ima"src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/45NBuzDIW489QBoVep5mcWxXouFkqq4uzlsIuE6CN80gg*Ai3pFFNTP6WasJXvcqVTFCVaS913ncqxi80Zl3o.VZ15GbIwmoAjYRXDBBK9Y!/b&bo=kgTXAQAAAAADVzI!&rf=viewer_4"></image>
 </view>
 
 <!-- 三餐推荐链接图轮播 -->
@@ -54,23 +54,23 @@
 
     <view class="content">
        <navigator class="box" url="pages/login/login" open-type="navigate">
-        <image class="pic" src="/images/f1.jfif"></image>
+        <image class="pic" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6YqM8HjQxrR6L8O58HIg0mjny5ocqPqEwGWWOYYrTB8AibdWmNxHgDBN*f5kf9RZSQ!/mnull&bo=wAY4BAAAAAABB9o!&rf=photolist&t=5"></image>
       </navigator>
 
       <navigator class="box" url="pages/login/login" open-type="navigate">
-        <image class="pic" src="/images/f1.jfif"></image>
+        <image class="pic" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6YqM8HjQxrR6L8O58HIg0mjny5ocqPqEwGWWOYYrTB8AibdWmNxHgDBN*f5kf9RZSQ!/mnull&bo=wAY4BAAAAAABB9o!&rf=photolist&t=5"></image>
       </navigator>
 
       <navigator class="box" url="pages/login/login" open-type="navigate">
-        <image class="pic" src="/images/f1.jfif"></image>
+        <image class="pic" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6YqM8HjQxrR6L8O58HIg0mjny5ocqPqEwGWWOYYrTB8AibdWmNxHgDBN*f5kf9RZSQ!/mnull&bo=wAY4BAAAAAABB9o!&rf=photolist&t=5"></image>
       </navigator>
 
       <navigator class="box" url="pages/login/login" open-type="navigate">
-        <image class="pic" src="/images/f1.jfif"></image>
+        <image class="pic" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6YqM8HjQxrR6L8O58HIg0mjny5ocqPqEwGWWOYYrTB8AibdWmNxHgDBN*f5kf9RZSQ!/mnull&bo=wAY4BAAAAAABB9o!&rf=photolist&t=5"></image>
       </navigator>
 
       <navigator url="pages/login/login" open-type="navigate">
-        <image class="pic1" src="/images/f1.jfif"></image>
+        <image class="pic1" src="http://m.qpic.cn/psc?/V511wiye4dvmgZ3zlgOE3jgrSY3358sX/ruAMsa53pVQWN7FLK88i5vs9bQ0ocuOWhygzMOLcn6YqM8HjQxrR6L8O58HIg0mjny5ocqPqEwGWWOYYrTB8AibdWmNxHgDBN*f5kf9RZSQ!/mnull&bo=wAY4BAAAAAABB9o!&rf=photolist&t=5"></image>
       </navigator>
 
     </view>

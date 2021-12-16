@@ -1,4 +1,4 @@
 {
-  "usingComponents": {"van-card": "../../miniprogram_npm/vant-weapp/card/index",
+  "usingComponents": {
     "van-divider": "../../dist/divider/index"}
 }

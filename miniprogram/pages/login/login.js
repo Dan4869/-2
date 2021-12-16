@@ -1,3 +1,4 @@
+var app=getApp()
 Page({
   data: {
     btn_hover1:true,
@@ -54,6 +55,7 @@ Page({
   },
 
   post(){
+    console.log(app.globalData.openid)
     // 这里将所有信息post给数据库
   },
 
