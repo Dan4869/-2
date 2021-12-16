@@ -46,6 +46,18 @@ page {
   margin-bottom: 20rpx;
 }
 
+.btn{
+  background-color: #B3D66E;
+  color:#ffffff;
+  border-radius: 15%;
+}
+
+.btn_hover{
+  background-color: #fa5a5a;
+  color:#ffffff;
+  border-radius: 15%;
+}
+
 
 .btn2{
   background-color: #d66eb3;
@@ -66,4 +78,10 @@ page {
   background-color: #B3D66E;
   color:#ffffff;
   border-radius: 15%;
+}
+
+.btn_view{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20rpx;
 }

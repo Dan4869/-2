@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #fefefe;
-    margin-top: 80rpx;
   }
 
 .logo_img{
